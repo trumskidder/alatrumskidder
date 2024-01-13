@@ -7,7 +7,7 @@ if getgenv().Team == nil then
 end
 
 local GameLoadGui = Instance.new("Message", workspace)
-GameLoadGui.Text = 'Luxury Hub Auto Chest Free Scripts'
+GameLoadGui.Text = 'trum skidder discord : bet boi'
 
 local function SelectTeam()
     local ChooseTeam = game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("ChooseTeam", true)
@@ -126,7 +126,7 @@ task.spawn(function()
     while task.wait() do
         if getgenv().Auto_Chest then
             if checkForGodsChalice() then
-                getgenv().Auto_Chest = false
+                getgenv().Auto_Chest = true
                 print("God's Chalice found. Stopping Auto_Chest.")
                 break
             end
